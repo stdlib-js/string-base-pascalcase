@@ -35,6 +35,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+pascalcase = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-pascalcase/tags). For example,
+
+```javascript
 pascalcase = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@v0.0.2-umd/browser.js' )
 ```
 
@@ -47,7 +52,7 @@ var pascalcase = require( 'path/to/vendor/umd/string-base-pascalcase/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@v0.0.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ out = pascalcase( '--foo-bar--' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@v0.0.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
