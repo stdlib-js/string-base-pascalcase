@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/string-base-capitalize": "^0.0.2",
-    "@stdlib/string-base-lowercase": "^0.1.0",
+    "@stdlib/string-base-lowercase": "^0.1.1",
     "@stdlib/string-base-replace": "^0.0.2",
     "@stdlib/string-base-trim": "^0.0.2"
   },
