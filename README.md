@@ -18,6 +18,17 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # pascalcase
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
@@ -26,14 +37,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-pascalcase
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@esm/index.mjs';
+var pascalcase = require( '@stdlib/string-base-pascalcase' );
 ```
 
 #### pascalcase( str )
@@ -64,13 +91,8 @@ out = pascalcase( '--foo-bar--' );
 
 ## Examples
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@esm/index.mjs';
+```javascript
+var pascalcase = require( '@stdlib/string-base-pascalcase' );
 
 var str = 'Hello World!';
 var out = pascalcase( str );
@@ -83,10 +105,6 @@ out = pascalcase( str );
 str = 'To be, or not to be: that is the question.';
 out = pascalcase( str );
 // returns 'ToBeOrNotToBeThatIsTheQuestion'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -110,7 +128,7 @@ out = pascalcase( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -140,8 +158,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base-pascalcase.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base-pascalcase
 
-[test-image]: https://github.com/stdlib-js/string-base-pascalcase/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/string-base-pascalcase/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/string-base-pascalcase/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/string-base-pascalcase/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base-pascalcase/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base-pascalcase?branch=main
