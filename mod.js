@@ -1,4 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-function u(u,r,t){return u.replace(r,t)}var r=void 0!==String.prototype.trim,t=String.prototype.trim;var n=/^[\u0020\f\n\r\t\v\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]*([\S\s]*?)[\u0020\f\n\r\t\v\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]*$/;var f=r&&""===t.call(" \n\t\r\n\f\v            \u2028\u2029  　\ufeff")&&"᠎"===t.call("᠎")?function(u){return t.call(u)}:function(r){return u(r,n,"$1")},e=/\s+/g,a=/[-!"'(),–.:;<>?`{}|~\/\\\[\]_#$*&^@%]+/g,o=/(?:\s|^)([^\s]+)(?=\s|$)/g,c=/([a-z0-9])([A-Z])/g;function i(u,r){return function(u){return""===u?"":u.charAt(0).toUpperCase()+u.slice(1)}(r.toLowerCase())}function l(r){return r=u(r,a," "),r=u(r,e," "),r=u(r,c,"$1 $2"),u(r=f(r),o,i)}export{l as default};
-//# sourceMappingURL=mod.js.map
