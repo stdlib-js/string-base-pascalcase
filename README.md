@@ -44,6 +44,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-pascalcase/tags). For example,
+
+```javascript
 import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@v0.2.3-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ out = pascalcase( '--foo-bar--' );
 <body>
 <script type="module">
 
-import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@v0.2.3-esm/index.mjs';
+import pascalcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-pascalcase@esm/index.mjs';
 
 var str = 'Hello World!';
 var out = pascalcase( str );
